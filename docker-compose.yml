@@ -5,7 +5,7 @@ services:
     # To deploy a stack from a Git repository in Portainer, you must use a pre-built image
     # from a Docker repository (like Docker Hub). Make sure you have pushed your image first.
     # See the "Advanced Usage" section in the README for instructions.
-    image: BigJazzz/plex-genre-tagger:latest
+    image: ghcr.io/BigJazzz/plex-genre-tagger:latest
 
     # If you are running this locally (not in Portainer from Git), you can build
     # the image directly from the Dockerfile by commenting out the `image` line above
